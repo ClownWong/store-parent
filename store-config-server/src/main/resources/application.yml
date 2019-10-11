@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://ClownWong:wcy880811@github.com/ClownWong/store-config.git
+  application:
+    name: STORE-CONFIG
+
+eureka:
+  instance:
+    prefer-ip-address: true #以ip注册到erueka中而不是主机名
+  client:
+    serviceUrl:
+      defaultZone: http://root:880811@localhost:8761/eureka/ #eureka的注册地址876

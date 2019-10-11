@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/store-basic/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/store-basic/basic-util/basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/store-plat-parent/plat-interface/plat-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-plat-parent/plat-service/plat-service.iml" filepath="$PROJECT_DIR$/store-plat-parent/plat-service/plat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-basic/store-basic.iml" filepath="$PROJECT_DIR$/store-basic/store-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-config-server/store-config-server.iml" filepath="$PROJECT_DIR$/store-config-server/store-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-eureka/store-eureka.iml" filepath="$PROJECT_DIR$/store-eureka/store-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-parent.iml" filepath="$PROJECT_DIR$/store-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-plat-parent/store-plat-parent.iml" filepath="$PROJECT_DIR$/store-plat-parent/store-plat-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-zuul/store-zuul.iml" filepath="$PROJECT_DIR$/store-zuul/store-zuul.iml" />
+    </modules>
+  </component>
+</project>

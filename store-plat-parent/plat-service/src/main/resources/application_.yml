@@ -1,0 +1,15 @@
+server:
+  port: 8081
+logging:
+  level:
+    cn.itsource.controller: debug
+spring:
+  application:
+    name: STORE-PLAT
+eureka:
+  instance:
+    prefer-ip-address: true #以ip注册到erueka中而不是主机名
+  client:
+    serviceUrl:
+      defaultZone: http://root:880811@localhost:8761/eureka/ #eureka的注册地址876
+
