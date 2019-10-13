@@ -7,7 +7,7 @@ public class AjaxResult {
 
     private Boolean success=true;
 
-    private String massage="操作成功";
+    private String message="操作成功";
 
     private Object resultBack;
 
@@ -28,12 +28,12 @@ public class AjaxResult {
         return this;
     }
 
-    public String getMassage() {
-        return massage;
+    public String getmessage() {
+        return message;
     }
 
-    public AjaxResult setMassage(String massage) {
-        this.massage = massage;
+    public AjaxResult setmessage(String message) {
+        this.message = message;
         return this;
     }
 
@@ -44,5 +44,10 @@ public class AjaxResult {
     public AjaxResult setResultBack(Object resultBack) {
         this.resultBack = resultBack;
         return  this;
+    }
+
+    public AjaxResult setMessage(String message) {
+        this.message = message;
+        return this;
     }
 }

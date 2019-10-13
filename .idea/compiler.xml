@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="basic-generater" />
         <module name="basic-util" />
         <module name="plat-interface" />
         <module name="plat-service" />
         <module name="store-config-server" />
         <module name="store-eureka" />
+        <module name="store-product-interface" />
+        <module name="store-product-server" />
         <module name="store-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="basic-generater" target="1.8" />
       <module name="basic-util" target="1.8" />
       <module name="plat-interface" target="1.8" />
       <module name="plat-service" target="1.8" />
@@ -23,6 +27,10 @@
       <module name="store-eureka" target="1.8" />
       <module name="store-parent" target="1.8" />
       <module name="store-plat-parent" target="1.8" />
+      <module name="store-product-interface" target="1.8" />
+      <module name="store-product-parent" target="1.8" />
+      <module name="store-product-server" target="1.8" />
+      <module name="store-product-service" target="1.8" />
       <module name="store-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

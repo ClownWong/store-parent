@@ -1,0 +1,13 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: STORE-PRODUCT #服务名称
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///store?serverTimezone=GMT%2B8
+    username: root
+    password: 880811
+#配置mapperxml文件的位置
+mybatis-plus:
+  mapper-locations: classpath*:cn/itsource/mapper/*Mapper.xml

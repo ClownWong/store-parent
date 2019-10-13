@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/store-basic/basic-generater/basic-generater.iml" filepath="$PROJECT_DIR$/store-basic/basic-generater/basic-generater.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-basic/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/store-basic/basic-util/basic-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/store-plat-parent/plat-interface/plat-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-plat-parent/plat-service/plat-service.iml" filepath="$PROJECT_DIR$/store-plat-parent/plat-service/plat-service.iml" />
@@ -10,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/store-eureka/store-eureka.iml" filepath="$PROJECT_DIR$/store-eureka/store-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-parent.iml" filepath="$PROJECT_DIR$/store-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-plat-parent/store-plat-parent.iml" filepath="$PROJECT_DIR$/store-plat-parent/store-plat-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-product-parent/store-product-interface/store-product-interface.iml" filepath="$PROJECT_DIR$/store-product-parent/store-product-interface/store-product-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-product-parent/store-product-parent.iml" filepath="$PROJECT_DIR$/store-product-parent/store-product-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store-product-parent/store-product-server/store-product-server.iml" filepath="$PROJECT_DIR$/store-product-parent/store-product-server/store-product-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/store-zuul/store-zuul.iml" filepath="$PROJECT_DIR$/store-zuul/store-zuul.iml" />
     </modules>
   </component>

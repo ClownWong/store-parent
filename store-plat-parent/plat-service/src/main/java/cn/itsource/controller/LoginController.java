@@ -6,7 +6,6 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -21,8 +20,8 @@ public class LoginController {
         String password="123456";
 
         if (username.equals(user.getUsername())&&password.equals(user.getPassword())){
-            return AjaxResult.me().setSuccess(true).setMassage("登录成功").setResultBack(user);
+            return AjaxResult.me().setSuccess(true).setMessage("登录成功").setResultBack(user);
         }
-    return AjaxResult.me().setSuccess(false).setMassage("登录失败");
+    return AjaxResult.me().setSuccess(false).setMessage("登录失败");
     }
 }

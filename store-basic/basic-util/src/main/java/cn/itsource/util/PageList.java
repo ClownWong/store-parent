@@ -10,25 +10,14 @@ import java.util.List;
 public class PageList<T> {
 
     /*页数*/
-    private Integer total=1;
+    private Long total = 0L;
+    private List<T> rows = new ArrayList<>();
 
-    /*行数*/
-    private List<T> rows=new ArrayList<>();
-
-    public PageList() {
-    }
-
-    public PageList(Integer total, List<T> rows) {
-
-        this.total = total;
-        this.rows = rows;
-    }
-
-    public Integer getTotal() {
+    public Long getTotal() {
         return total;
     }
 
-    public void setTotal(Integer total) {
+    public void setTotal(Long total) {
         this.total = total;
     }
 
@@ -37,6 +26,14 @@ public class PageList<T> {
     }
 
     public void setRows(List<T> rows) {
+        this.rows = rows;
+    }
+
+    public PageList() {
+    }
+
+    public PageList(Long total, List<T> rows) {
+        this.total = total;
         this.rows = rows;
     }
 }
