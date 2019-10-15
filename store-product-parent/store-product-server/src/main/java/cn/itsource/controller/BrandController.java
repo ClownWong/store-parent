@@ -81,8 +81,8 @@ public class BrandController {
     * @return PageList 分页对象
     */
     @RequestMapping(value = "/json",method = RequestMethod.POST)
-    public PageList<Brand> json(@RequestBody BrandQuery query)
-    {
+    public PageList<Brand> json(@RequestBody BrandQuery query) {
+        System.out.println("json:++++++++++++++++++++++++");
         return  brandService.queryPage(query);
       }
 

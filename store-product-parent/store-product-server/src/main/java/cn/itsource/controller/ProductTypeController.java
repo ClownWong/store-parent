@@ -18,6 +18,8 @@ public class ProductTypeController {
     @Autowired
     public IProductTypeService productTypeService;
 
+
+
     /**
     * 保存和修改公用的
     * @param productType  传递的实体
@@ -95,6 +97,16 @@ public class ProductTypeController {
         return productTypeService.loadTypeTree();
     }
 
-
+    /*静态化首页*/
+    @PostMapping("/genHomePage")
+    public AjaxResult genHomePage(){
+        try {
+            productTypeService.genHomePage();
+            return AjaxResult.me().setSuccess(true).setMessage("成功！");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("失败!"+e.getMessage());
+        }
+    }
 
 }

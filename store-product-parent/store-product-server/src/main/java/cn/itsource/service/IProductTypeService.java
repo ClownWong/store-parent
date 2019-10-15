@@ -3,6 +3,7 @@ package cn.itsource.service;
 import cn.itsource.domain.ProductType;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -15,4 +16,7 @@ import java.util.List;
  */
 public interface IProductTypeService extends IService<ProductType> {
     List<ProductType> loadTypeTree();
+
+
+    void genHomePage();
 }

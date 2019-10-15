@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="basic-generater" />
         <module name="basic-util" />
+        <module name="common-interface" />
+        <module name="common-service" />
         <module name="plat-interface" />
         <module name="plat-service" />
         <module name="store-config-server" />
@@ -20,9 +22,12 @@
     <bytecodeTargetLevel>
       <module name="basic-generater" target="1.8" />
       <module name="basic-util" target="1.8" />
+      <module name="common-interface" target="1.8" />
+      <module name="common-service" target="1.8" />
       <module name="plat-interface" target="1.8" />
       <module name="plat-service" target="1.8" />
       <module name="store-basic" target="1.8" />
+      <module name="store-common-parent" target="1.8" />
       <module name="store-config-server" target="1.8" />
       <module name="store-eureka" target="1.8" />
       <module name="store-parent" target="1.8" />

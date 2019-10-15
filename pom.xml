@@ -14,6 +14,7 @@
     <module>store-zuul</module>
     <module>store-config-server</module>
     <module>store-product-parent</module>
+      <module>store-common-parent</module>
   </modules>
   <packaging>pom</packaging>
 
